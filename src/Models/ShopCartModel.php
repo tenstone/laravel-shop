@@ -1,6 +1,6 @@
 <?php
 
-namespace Amsgames\LaravelShop\Models;
+namespace Tenstone\LaravelShop\Models;
 
 /**
  * This file is part of LaravelShop,
@@ -9,12 +9,12 @@ namespace Amsgames\LaravelShop\Models;
  * @author Alejandro Mostajo
  * @copyright Amsgames, LLC
  * @license MIT
- * @package Amsgames\LaravelShop
+ * @package Tenstone\LaravelShop
  */
 
-use Amsgames\LaravelShop\Contracts\ShopCartInterface;
-use Amsgames\LaravelShop\Traits\ShopCartTrait;
-use Amsgames\LaravelShop\Traits\ShopCalculationsTrait;
+use Tenstone\LaravelShop\Contracts\ShopCartInterface;
+use Tenstone\LaravelShop\Traits\ShopCartTrait;
+use Tenstone\LaravelShop\Traits\ShopCalculationsTrait;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Config;
 

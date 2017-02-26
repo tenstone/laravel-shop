@@ -1,6 +1,6 @@
 <?php
 
-namespace Amsgames\LaravelShop\Events;
+namespace Tenstone\LaravelShop\Events;
 
 use Illuminate\Queue\SerializesModels;
 
@@ -10,7 +10,7 @@ use Illuminate\Queue\SerializesModels;
  * @author Alejandro Mostajo
  * @copyright Amsgames, LLC
  * @license MIT
- * @package Amsgames\LaravelShop
+ * @package Tenstone\LaravelShop
  */
 class OrderCompleted
 {

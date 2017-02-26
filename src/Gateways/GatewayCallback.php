@@ -1,6 +1,6 @@
 <?php
 
-namespace Amsgames\LaravelShop\Gateways;
+namespace Tenstone\LaravelShop\Gateways;
 
 /**
  * This file is part of LaravelShop,
@@ -9,10 +9,10 @@ namespace Amsgames\LaravelShop\Gateways;
  * @author Alejandro Mostajo
  * @copyright Amsgames, LLC
  * @license MIT
- * @package Amsgames\LaravelShop
+ * @package Tenstone\LaravelShop
  */
 
-use Amsgames\LaravelShop\Gateways\GatewayPass;
+use Tenstone\LaravelShop\Gateways\GatewayPass;
 
 class GatewayCallback extends GatewayPass
 {

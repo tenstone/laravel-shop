@@ -1,6 +1,6 @@
 <?php
 
-namespace Amsgames\LaravelShop\Core;
+namespace Tenstone\LaravelShop\Core;
 
 /**
  * This file is part of LaravelShop,
@@ -9,13 +9,13 @@ namespace Amsgames\LaravelShop\Core;
  * @author Alejandro Mostajo
  * @copyright Amsgames, LLC
  * @license MIT
- * @package Amsgames\LaravelShop
+ * @package Tenstone\LaravelShop
  */
 
 use JsonSerializable;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Jsonable;
-use Amsgames\LaravelShop\Contracts\PaymentGatewayInterface;
+use Tenstone\LaravelShop\Contracts\PaymentGatewayInterface;
 
 abstract class PaymentGateway implements PaymentGatewayInterface, Arrayable, Jsonable, JsonSerializable
 {

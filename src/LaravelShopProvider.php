@@ -1,6 +1,6 @@
 <?php
 
-namespace Amsgames\LaravelShop;
+namespace Tenstone\LaravelShop;
 
 /**
  * Service provider for laravel.
@@ -8,7 +8,7 @@ namespace Amsgames\LaravelShop;
  * @author Alejandro Mostajo
  * @copyright Amsgames, LLC
  * @license MIT
- * @package Amsgames\LaravelShop
+ * @package Tenstone\LaravelShop
  */
 
 use Illuminate\Routing\Router;
@@ -114,7 +114,7 @@ class LaravelShopProvider extends ServiceProvider
      */
     public function map(Router $router)
     {
-        $router->group(['namespace' => 'Amsgames\LaravelShop\Http\Controllers'], function($router) {
+        $router->group(['namespace' => 'Tenstone\LaravelShop\Http\Controllers'], function($router) {
 
             $router->group(['prefix' => 'shop'], function ($router) {
 
