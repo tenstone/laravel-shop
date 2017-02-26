@@ -1,15 +1,15 @@
 {
-    "name": "amsgames/laravel-shop",
+    "name": "tenstone/laravel-shop",
     "description": "Package set to provide shop or e-commerce functionality (such as CART, ORDERS, TRANSACTIONS and ITEMS) to Laravel for customizable builds.",
     "license": "MIT",
     "keywords": ["shop","laravel","cart","orders","transactions","paypal","e-commerce","shopping cart","ecommerce","shopping"],
     "authors": [
         {
-            "name": "Amsgames, LLC",
-            "email": "support@amsgames.com"
+            "name": "Tenstone, LLC",
+            "email": "tenstone@foxmail.com"
         },
         {
-            "name": "Alejandro Mostajo",
+            "name": "Jerry Liu",
             "email": "amostajo@gmail.com"
         }
     ],
@@ -24,7 +24,7 @@
             "src/Commands"
         ],
         "psr-4": {
-            "Amsgames\\LaravelShop\\": "src"
+            "Tenstone\\LaravelShop\\": "src"
         }
     },
     "minimum-stability": "dev"

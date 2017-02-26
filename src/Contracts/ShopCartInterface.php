@@ -1,6 +1,6 @@
 <?php
 
-namespace Amsgames\LaravelShop\Contracts;
+namespace Tenstone\LaravelShop\Contracts;
 
 /**
  * This file is part of LaravelShop,
@@ -9,7 +9,7 @@ namespace Amsgames\LaravelShop\Contracts;
  * @author Alejandro Mostajo
  * @copyright Amsgames, LLC
  * @license MIT
- * @package Amsgames\LaravelShop
+ * @package Tenstone\LaravelShop
  */
 
 interface ShopCartInterface

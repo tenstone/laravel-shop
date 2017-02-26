@@ -1,6 +1,6 @@
 <?php
 
-namespace Amsgames\LaravelShop\Traits;
+namespace Tenstone\LaravelShop\Traits;
 
 /**
  * This file is part of LaravelShop,
@@ -9,7 +9,7 @@ namespace Amsgames\LaravelShop\Traits;
  * @author Alejandro Mostajo
  * @copyright Amsgames, LLC
  * @license MIT
- * @package Amsgames\LaravelShop
+ * @package Tenstone\LaravelShop
  */
 
 use Auth;

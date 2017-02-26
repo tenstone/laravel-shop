@@ -1,6 +1,6 @@
 <?php
 
-namespace Amsgames\LaravelShop\Http\Controllers;
+namespace Tenstone\LaravelShop\Http\Controllers;
 
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Routing\Controller as BaseController;

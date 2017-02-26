@@ -1,11 +1,11 @@
 <?php
 
-namespace Amsgames\LaravelShop\Http\Controllers\Shop;
+namespace Tenstone\LaravelShop\Http\Controllers\Shop;
 
 use Validator;
 use Shop;
 use Illuminate\Http\Request;
-use Amsgames\LaravelShop\Http\Controllers\Controller;
+use Tenstone\LaravelShop\Http\Controllers\Controller;
 
 class CallbackController extends Controller
 {

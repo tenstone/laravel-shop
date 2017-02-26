@@ -1,6 +1,6 @@
 <?php
 
-namespace Amsgames\LaravelShop;
+namespace Tenstone\LaravelShop;
 
 /**
  * Service provider for laravel.
@@ -8,7 +8,7 @@ namespace Amsgames\LaravelShop;
  * @author Alejandro Mostajo
  * @copyright Amsgames, LLC
  * @license MIT
- * @package Amsgames\LaravelShop
+ * @package Tenstone\LaravelShop
  */
 
 use Illuminate\Routing\Router;
@@ -29,9 +29,10 @@ class LaravelShopProvider extends ServiceProvider
      *
      * @return void
      */
-    public function boot(Router $router)
+//    public function boot(Router $router)
+    public function boot()
     {
-        parent::boot($router);
+//        parent::boot($router);
 
         // Publish config files
         $this->publishes([
@@ -88,7 +89,7 @@ class LaravelShopProvider extends ServiceProvider
      */
     private function registerCommands()
     {
-        $this->app->bindShared('command.laravel-shop.migration', function ($app) {
+        $this->app->singleton('command.laravel-shop.migration', function ($app) {
             return new MigrationCommand();
         });
     }
@@ -113,7 +114,7 @@ class LaravelShopProvider extends ServiceProvider
      */
     public function map(Router $router)
     {
-        $router->group(['namespace' => 'Amsgames\LaravelShop\Http\Controllers'], function($router) {
+        $router->group(['namespace' => 'Tenstone\LaravelShop\Http\Controllers'], function($router) {
 
             $router->group(['prefix' => 'shop'], function ($router) {
 

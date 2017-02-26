@@ -1,6 +1,6 @@
 <?php
 
-namespace Amsgames\LaravelShop\Exceptions;
+namespace Tenstone\LaravelShop\Exceptions;
 
 /**
  * This class is the main entry point of laravel shop. Usually this the interaction
@@ -9,7 +9,7 @@ namespace Amsgames\LaravelShop\Exceptions;
  * @author Alejandro Mostajo
  * @copyright Amsgames, LLC
  * @license MIT
- * @package Amsgames\LaravelShop
+ * @package Tenstone\LaravelShop
  */
 
 class CheckoutException extends \Exception

@@ -1,12 +1,12 @@
 <?php
 
 /**
- * This file is part of Amsgames\LaravelShop,
+ * This file is part of Tenstone\LaravelShop,
  * Shop functionality for Laravel.
  *
  * @copyright Amsgames, LLC
  * @license MIT
- * @package Amsgames\LaravelShop
+ * @package Tenstone\LaravelShop
  */
 
 return [
@@ -256,8 +256,8 @@ return [
     |
     */
     'gateways' => [
-        'paypal'            =>  Amsgames\LaravelShopGatewayPaypal\GatewayPayPal::class,
-        'paypalExpress'     =>  Amsgames\LaravelShopGatewayPaypal\GatewayPayPalExpress::class,
+        'paypal'            =>  Tenstone\LaravelShopGatewayPaypal\GatewayPayPal::class,
+        'paypalExpress'     =>  Tenstone\LaravelShopGatewayPaypal\GatewayPayPalExpress::class,
     ],
 
     /*

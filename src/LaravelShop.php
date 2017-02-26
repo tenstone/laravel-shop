@@ -1,6 +1,6 @@
 <?php
 
-namespace Amsgames\LaravelShop;
+namespace Tenstone\LaravelShop;
 
 /**
  * This class is the main entry point of laravel shop. Usually this the interaction
@@ -9,21 +9,21 @@ namespace Amsgames\LaravelShop;
  * @author Alejandro Mostajo
  * @copyright Amsgames, LLC
  * @license MIT
- * @package Amsgames\LaravelShop
+ * @package Tenstone\LaravelShop
  */
 
 use Auth;
-use Amsgames\LaravelShop\Gateways;
+use Tenstone\LaravelShop\Gateways;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Log;
-use Amsgames\LaravelShop\Exceptions\CheckoutException;
-use Amsgames\LaravelShop\Exceptions\GatewayException;
-use Amsgames\LaravelShop\Exceptions\ShopException;
-use Amsgames\LaravelShop\Events\CartCheckout;
-use Amsgames\LaravelShop\Events\OrderCompleted;
-use Amsgames\LaravelShop\Events\OrderPlaced;
-use Amsgames\LaravelShop\Events\OrderStatusChanged;
+use Tenstone\LaravelShop\Exceptions\CheckoutException;
+use Tenstone\LaravelShop\Exceptions\GatewayException;
+use Tenstone\LaravelShop\Exceptions\ShopException;
+use Tenstone\LaravelShop\Events\CartCheckout;
+use Tenstone\LaravelShop\Events\OrderCompleted;
+use Tenstone\LaravelShop\Events\OrderPlaced;
+use Tenstone\LaravelShop\Events\OrderStatusChanged;
 
 class LaravelShop
 {

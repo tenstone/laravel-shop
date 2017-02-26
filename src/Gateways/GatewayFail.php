@@ -1,6 +1,6 @@
 <?php
 
-namespace Amsgames\LaravelShop\Gateways;
+namespace Tenstone\LaravelShop\Gateways;
 
 /**
  * This file is part of LaravelShop,
@@ -9,13 +9,13 @@ namespace Amsgames\LaravelShop\Gateways;
  * @author Alejandro Mostajo
  * @copyright Amsgames, LLC
  * @license MIT
- * @package Amsgames\LaravelShop
+ * @package Tenstone\LaravelShop
  */
 
-use Amsgames\LaravelShop\Exceptions\CheckoutException;
-use Amsgames\LaravelShop\Exceptions\GatewayException;
-use Amsgames\LaravelShop\Exceptions\ShopException;
-use Amsgames\LaravelShop\Core\PaymentGateway;
+use Tenstone\LaravelShop\Exceptions\CheckoutException;
+use Tenstone\LaravelShop\Exceptions\GatewayException;
+use Tenstone\LaravelShop\Exceptions\ShopException;
+use Tenstone\LaravelShop\Core\PaymentGateway;
 
 class GatewayFail extends PaymentGateway
 {
